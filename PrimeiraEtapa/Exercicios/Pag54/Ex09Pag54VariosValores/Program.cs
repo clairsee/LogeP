@@ -47,7 +47,7 @@ namespace Ex09Pag54VariosValores
                     $"\nO valor do Maior é: {maior}" +
                     $"\nO valor do Menor é: {menor}" +
                     $"\nA Média dos valores é: {mediaValor}" +
-                    $"\nPorcentual de Zeros digitados: {zeroPorc}" +
+                    $"\nPorcentual de Zeros digitados: {zeroPorc}%" +
                     $"\nQuantidade de Números Negativos: {valorNegativo}");
             }
             else
