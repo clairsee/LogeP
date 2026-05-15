@@ -21,41 +21,37 @@ namespace Ex09Pag54VariosValores
                 Console.Clear();
 
                 if (valor == -1)
-                {
                     break;
-                }
 
                 digitados += 1;
 
                 somaValor += valor;
 
                 if (valor > maior)
-                {
                     maior = valor;
-                }
 
                 if (valor < menor)
-                {
                     menor = valor;
-                }
 
                 if (valor == 0)
-                {
                     valor0 += 1;
-                } else if (valor < 0)
-                {
+                else if (valor < 0)
                     valorNegativo += 1;
-                }
             }
 
-            zeroPorc = (valor0 * 100) / digitados;
-            mediaValor = somaValor / digitados;
-            Console.WriteLine($"A Soma total é: {somaValor}");
-            Console.WriteLine($"O valor do Maior é: {maior}");
-            Console.WriteLine($"O valor do Menor é: {menor}");
-            Console.WriteLine($"A Média dos valores é: {mediaValor}");
-            Console.WriteLine($"Porcentual de Zeros digitados: {zeroPorc}");
-            Console.WriteLine($"Quantidade de Números Negativos: {valorNegativo}");
+            if (digitados > 0)
+            {
+                zeroPorc = (valor0 * 100) / digitados;
+                mediaValor = somaValor / digitados;
+                Console.WriteLine($"A Soma total é: {somaValor}" +
+                    $"\nO valor do Maior é: {maior}" +
+                    $"\nO valor do Menor é: {menor}" +
+                    $"\nA Média dos valores é: {mediaValor}" +
+                    $"\nPorcentual de Zeros digitados: {zeroPorc}" +
+                    $"\nQuantidade de Números Negativos: {valorNegativo}");
+            }
+            else
+                Console.Write("Obrigado por usar o programa!");
             Console.ReadKey();
         }
     }
