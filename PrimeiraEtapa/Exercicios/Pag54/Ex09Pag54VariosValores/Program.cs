@@ -15,7 +15,7 @@ namespace Ex09Pag54VariosValores
 
             while (true)
             {
-                Console.Write("Para sair, digite '-1'\nDigite um valor: ");
+                Console.Write("Para sair, digite '-1'\nDigite um valor inteiro: ");
                 int valor = int.Parse(Console.ReadLine());
 
                 Console.Clear();
