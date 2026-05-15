@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex06Pag38Divisivelpor5", "Ex06Pag38Divisivelpor5.csproj", "{870F49A3-D432-4D9E-A93C-029FF49019CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870F49A3-D432-4D9E-A93C-029FF49019CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870F49A3-D432-4D9E-A93C-029FF49019CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870F49A3-D432-4D9E-A93C-029FF49019CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870F49A3-D432-4D9E-A93C-029FF49019CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5BDF7E0-B7D6-4E03-BC17-7BC61444E018}
+	EndGlobalSection
+EndGlobal
